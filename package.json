@@ -1,0 +1,46 @@
+{
+  "name": "@lxgicstudios/css-to-vars",
+  "version": "1.0.0",
+  "description": "Scan CSS files, find repeated hardcoded values, and refactor them into CSS custom properties automatically.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "css-to-vars": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "custom-properties",
+    "css-variables",
+    "refactor",
+    "css-optimization",
+    "design-tokens",
+    "css-cleanup",
+    "dry-run",
+    "cli",
+    "developer-tools",
+    "frontend",
+    "css-lint",
+    "code-quality",
+    "stylesheet"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/css-to-vars.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
